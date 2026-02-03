@@ -1,0 +1,2655 @@
+{
+  "common": {
+    "roles": {
+      "SUPER_ADMIN": "Super-admin",
+      "ADMIN": "Administrator",
+      "MANAGER": "Manager",
+      "SUPERVISEUR": "Supervisor",
+      "COLLECTEUR_RESEAUX": "Network Collector",
+      "COLLECTEUR_CULTE": "Service Collector",
+      "MEMBRE": "Member"
+    },
+    "actions": {
+      "save": "Save",
+      "cancel": "Cancel",
+      "update": "Update",
+      "edit": "Edit",
+      "delete": "Delete",
+      "create": "Create",
+      "add": "Add",
+      "remove": "Remove",
+      "open": "Open",
+      "search": "Search",
+      "filter": "Filter",
+      "sort": "Sort",
+      "export": "Export",
+      "import": "Import",
+      "download": "Download",
+      "upload": "Upload",
+      "uploading": "Uploading...",
+      "refresh": "Refresh",
+      "back": "Back",
+      "next": "Next",
+      "previous": "Previous",
+      "submit": "Submit",
+      "reset": "Reset",
+      "confirm": "Confirm",
+      "yes": "Yes",
+      "no": "No",
+      "ok": "OK",
+      "loading": "Loading...",
+      "preparing": "Preparing...",
+      "submitting": "Submitting...",
+      "processing": "Processing...",
+      "saving": "Saving...",
+      "deleting": "Deleting...",
+      "error": "Error",
+      "success": "Success",
+      "warning": "Warning",
+      "info": "Information",
+      "view": "View network",
+      "title": "Actions",
+      "retry": "Retry",
+      "reload": "Reload",
+      "logout": "Logout",
+      "fieldTemporarilyDisabled": "This field is temporarily disabled",
+      "confirmLogout": "Are you sure you want to log out?",
+      "roleChangeError": "Error changing role. Please try again.",
+      "openLinkError": "Unable to open link. Please check your internet connection.",
+      "openPlatformError": "An error occurred while opening the web platform.",
+      "week": "Week",
+      "scrollLeft": "Scroll left",
+      "scrollRight": "Scroll right",
+      "testError": "Test error",
+      "none": "None",
+      "close": "Close",
+      "print": "Print",
+      "done": "Done",
+      "select": "Select"
+    },
+    "imageUpload": {
+      "preview": "Preview",
+      "remove": "Remove",
+      "confirm": "Confirm",
+      "confirmTitle": "Confirm image upload",
+      "noPreview": "No preview available"
+    },
+    "validation": {
+      "firstNameRequired": "First name is required",
+      "lastNameRequired": "Last name is required",
+      "churchRequired": "Church is required",
+      "personTypeRequired": "Person type is required",
+      "categoryRequired": "Category is required",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Invalid email address",
+      "passwordRequired": "Password is required",
+      "usernameRequired": "Username is required",
+      "genreRequired": "Gender is required",
+      "maritalStatusRequired": "Marital status is required",
+      "professionRequired": "Profession is required",
+      "qualificationRequired": "Qualification is required",
+      "educationRequired": "Education is required",
+      "originRequired": "Country of origin is required",
+      "cityRequired": "City is required",
+      "ageRangeRequired": "Age range is required",
+      "departmentsRequired": "Departments are required",
+      "required": "This field is required",
+      "minLength": "Minimum {min} characters",
+      "maxLength": "Maximum {max} characters",
+      "email": "Invalid email format",
+      "password": "Password must contain at least 8 characters",
+      "passwordConfirm": "Passwords must match",
+      "phone": "Invalid phone number format",
+      "url": "Invalid URL format",
+      "number": "Please enter a valid number",
+      "positive": "Please enter a positive number",
+      "integer": "Please enter an integer",
+      "cameraPermission": "Camera access permission denied",
+      "imageSelectError": "Error selecting image",
+      "validation400": "Validation error (400)"
+    },
+    "history": "History",
+    "close": "Close",
+    "pagination": {
+      "rowsPerPage": "Rows per page",
+      "page": "Page"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive",
+      "enabled": "Enabled",
+      "disabled": "Disabled",
+      "online": "Online",
+      "offline": "Offline",
+      "pending": "Pending",
+      "completed": "Completed",
+      "failed": "Failed",
+      "cancelled": "Cancelled",
+      "draft": "Draft",
+      "published": "Published",
+      "archived": "Archived"
+    },
+    "time": {
+      "seconds": "seconds",
+      "minutes": "minutes",
+      "hours": "hours",
+      "days": "days",
+      "weeks": "weeks",
+      "months": "months",
+      "years": "years",
+      "ago": "ago",
+      "fromNow": "from now",
+      "today": "today",
+      "yesterday": "yesterday",
+      "tomorrow": "tomorrow",
+      "thisWeek": "this week",
+      "lastWeek": "last week",
+      "nextWeek": "next week",
+      "thisMonth": "this month",
+      "lastMonth": "last month",
+      "nextMonth": "next month"
+    },
+    "loading": "Loading...",
+    "noData": "No data available",
+    "noItems": "No items",
+    "error": "An error occurred",
+    "errorOccurred": "An error occurred",
+    "operationSucceeded": "Operation succeeded.",
+    "unknown": "Unknown",
+    "menu": "Menu",
+    "languageName": "English",
+    "languageNativeName": "English",
+    "cancel": "Cancel",
+    "create": "Create",
+    "update": "Update",
+    "dashboardNotAvailable": "Dashboard is not available on mobile. Please use a computer to access it.",
+    "yes": "Oui",
+    "no": "Non",
+    "unexpectedError": "Une erreur inattendue s'est produite. Veuillez réessayer."
+  },
+  "navigation": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "profile": "Profile",
+    "settings": "Settings",
+    "logout": "Logout",
+    "messaging": "Messaging",
+    "login": "Login",
+    "register": "Register",
+    "menu": "Menu",
+    "sidebar": "Sidebar",
+    "breadcrumb": "Breadcrumb",
+    "services": {
+      "title": "Services",
+      "add": "Register a service",
+      "view": "View services"
+    },
+    "events": "Events",
+    "networks": "Networks and Sections",
+    "contact": "Contact Us"
+  },
+  "auth": {
+    "login": {
+      "title": "Login",
+      "subtitle": "Sign in to your account",
+      "email": "Email",
+      "password": "Password",
+      "rememberMe": "Remember me",
+      "forgotPassword": "Forgot password?",
+      "noAccount": "Don't have an account?",
+      "signUp": "Sign up",
+      "loginButton": "Login",
+      "errors": {
+        "invalidCredentials": "Incorrect email or password",
+        "accountLocked": "Account locked",
+        "tooManyAttempts": "Too many login attempts"
+      },
+      "loginSuccess": "Connexion réussie !",
+      "loginError": "Erreur de connexion",
+      "loginInProgress": "Connexion en cours...",
+      "showPassword": "Afficher le mot de passe",
+      "hidePassword": "Masquer le mot de passe",
+      "pseudoRequired": "Pseudo requis",
+      "passwordRequired": "Mot de passe requis"
+    },
+    "loginRequired": "Authentication required. Please log in to access this page.",
+    "register": {
+      "title": "Register",
+      "subtitle": "Create your account",
+      "changePhoto": "Change photo",
+      "serviceInDepartment": "Service in department",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm password",
+      "pseudo": "Nickname",
+      "genre": "Gender",
+      "trancheAge": "Age range",
+      "profession": "Profession",
+      "situationProfessionnelle": "Professional situation",
+      "villeResidence": "City of residence",
+      "origine": "Country of origin",
+      "situationMatrimoniale": "Marital status",
+      "niveauEducation": "Education level",
+      "telephone": "Phone",
+      "adresse": "Full address",
+      "egliseLocale": "Local church *",
+      "username": "Username",
+      "profileImageUrl": "Profile image URL (optional)",
+      "imagePlaceholder": "https://example.com/image.jpg",
+      "profileImage": "Profile Picture",
+      "selectImage": "Select Image",
+      "changeImage": "Change Image",
+      "noImageSelected": "No image selected",
+      "imageHelper": "Leave empty to use default image",
+      "departments": "Departments",
+      "qualification": "Qualification",
+      "ageRange": "Age range",
+      "originCountry": "Country of origin",
+      "educationLevel": "Education level",
+      "defaultPassword": "password123",
+      "departement": "Department (optional)",
+      "noDepartement": "No department",
+      "registerButton": "Sign up",
+      "hasAccount": "Already have an account?",
+      "signIn": "Login",
+      "loginRequired": "You must be logged in to access this page",
+      "errors": {
+        "usernameExists": "This username already exists",
+        "emailExists": "This email is already used",
+        "passwordMismatch": "Passwords do not match",
+        "egliseRequired": "Local church is required"
+      }
+    },
+    "forgotPassword": {
+      "title": "Forgot password",
+      "subtitle": "Enter your email to receive reset instructions",
+      "email": "Email",
+      "submitButton": "Request new link",
+      "backToLogin": "Back to login",
+      "successMessage": "A reset email has been sent to your address",
+      "countdownMessage": "This link will expire in {time}",
+      "expiredMessage": "The link has expired. Request a new one.",
+      "newLinkButton": "Request new link",
+      "invalidResetLink": "Invalid reset link",
+      "passwordResetTitle": "Password reset",
+      "passwordResetSuccess": "Your password has been reset successfully.",
+      "goToLogin": "Go to login",
+      "passwordsMustMatch": "Passwords must match",
+      "acceptPrivacyPolicy": "Please accept the privacy policy to continue",
+      "countdownActive": "New link in {time}",
+      "waitMessage": "Attendre {time}",
+      "errors": {
+        "requestError": "Erreur lors de la demande de réinitialisation"
+      }
+    },
+    "resetPassword": {
+      "title": "Reset password",
+      "subtitle": "Enter your new password",
+      "newPassword": "New password",
+      "confirmPassword": "Confirm password",
+      "resetButton": "Reset password",
+      "errors": {
+        "invalidToken": "Invalid or expired reset link",
+        "passwordMismatch": "Passwords do not match"
+      }
+    }
+  },
+  "services": {
+    "title": "Services",
+    "service1": "Service 1",
+    "service2": "Service 2",
+    "service3": "Service 3",
+    "menu": {
+      "viewDescription": "View the list of all registered services",
+      "addDescription": "Register a new service"
+    },
+    "list": {
+      "title": "Service List",
+      "filterByChurch": "Filter by church",
+      "addService": "Add service",
+      "editService": "Edit service",
+      "typeCulte": "Service type",
+      "dateCulte": "Service date",
+      "orateur": "Speaker",
+      "nombreAdultes": "Number of adults",
+      "nombreEnfants": "Number of children",
+      "nombreChantres": "Number of singers",
+      "nombreProtocoles": "Number of ushers",
+      "nombreMultimedia": "Number of multimedia",
+      "multimediaRestants": "Number of multimedia remaining from previous service",
+      "adultesRestants": "Number of adults remaining from previous service",
+      "enfantsRestants": "Number of children remaining from previous service",
+      "chantresRestants": "Number of singers remaining from previous service",
+      "protocolesRestants": "Number of ushers remaining from previous service",
+      "respoEcodimRestants": "Number of ECODIM responsible remaining from previous service",
+      "animateursEcodimRestants": "Number of ECODIM facilitators remaining from previous service",
+      "enfantsEcodimRestants": "Number of ECODIM children remaining from previous service",
+      "responsableEcodim": "ECODIM responsible",
+      "nombreAnimateurs": "Number of facilitators",
+      "nombreEnfantsEcodim": "Number of ECODIM children",
+      "invitationsYoutube": "YouTube invitations",
+      "invitationsTiktok": "TikTok invitations",
+      "invitationsInstagram": "Instagram invitations",
+      "invitationsPhysiques": "Physical invitations",
+      "selectCollecteur": "Select a collector",
+      "selectSuperviseur": "Select a supervisor",
+      "noCollecteur": "No collector available",
+      "noSuperviseur": "No supervisor available",
+      "respEcodim": "Resp. ECODIM",
+      "animEcodim": "Anim. ECODIM",
+      "enfEcodim": "Children ECODIM",
+      "collecteur": "Collector",
+      "superviseur": "Supervisor",
+      "adultes": "Adults",
+      "enfants": "Children",
+      "chantres": "Singers",
+      "protocoles": "Ushers",
+      "multimedia": "Multimedia",
+      "noServices": "No service found",
+      "deleteService": "Delete service",
+      "church": "Church",
+      "total": "Total"
+    },
+    "form": {
+      "title": "Service Form",
+      "loadingError": "Loading error",
+      "collector": "Collector",
+      "supervisor": "Supervisor",
+      "totalAdultes": "Total Adults",
+      "totalEnfants": "Total Children",
+      "totalChantres": "Total Singers",
+      "totalProtocoles": "Total Ushers",
+      "generalInfo": "General Information",
+      "presence": "Presence",
+      "serviceTeams": "Service Teams",
+      "ecodim": "ECODIM",
+      "invitations": "Invitations",
+      "comingSoon": "Service creation form - Coming soon"
+    },
+    "errors": {
+      "speakerNameRequired": "Speaker name is required",
+      "createSpeaker": "Error creating speaker"
+    }
+  },
+  "networks": {
+    "loading": "Loading networks...",
+    "noNetworksForChurch": "No networks have been created yet for the church \"{churchName}\"",
+    "noNetworksAvailable": "No networks available",
+    "noNetworks": "No networks available",
+    "noSearchResults": "No networks match your search",
+    "selectChurchMessage": "Please select a church to see networks",
+    "searchPlaceholder": "Search for a network...",
+    "title": "Networks",
+    "filterByChurch": "Filter by church",
+    "sessions": {
+      "title": "Sections",
+      "noSessions": "No sections available",
+      "units": "units",
+      "members": "members"
+    },
+    "list": {
+      "title": "Network List",
+      "filterByChurch": "Filter by church",
+      "responsables": "Responsible :",
+      "gr": "GR:",
+      "group12": "12:",
+      "group144": "144:",
+      "group1728": "1728:",
+      "responsableGR": "Head of GR :",
+      "leader": "Leader:",
+      "leaderAll": "Leader (All):",
+      "companion": "Companion:",
+      "companions": "Companions of works",
+      "member": "Member:",
+      "total": "Total :"
+    },
+    "details": {
+      "title": "Network Details",
+      "statistics": "Network Statistics",
+      "loading": "Loading network details...",
+      "groupesReveil": "Revival GR",
+      "effectifTotal": "Total workforce",
+      "responsables": "Responsibles",
+      "responsable1": "Responsible 1",
+      "responsable2": "Responsible 2",
+      "groups": "Groups (GR)",
+      "noGroups": "No groups",
+      "noMembers": "No members",
+      "companions": "Companions of Works",
+      "nombreMembres": "Number of members :",
+      "responsibleQualification": "Responsible qualification",
+      "qualificationAutoAssigned": "This qualification will be automatically assigned to the group leader",
+      "superior": "Responsible hierarchical",
+      "selectSuperior": "Select the network leader or a higher-level group leader",
+      "selectQualificationFirst": "Please select a qualification first",
+      "selectSuperiorBasedOnQualification": "Select a hierarchical leader for qualification {qualification} ({count} available{plural})",
+      "noAvailableSuperiors": "No responsible hierarchical available for this qualification",
+      "noGroupSelected": "No group selected",
+      "noStats": "No statistics available",
+      "nameAutoGenerated": "The name will be generated automatically",
+      "nameGeneratedFromResponsible": "The group name is automatically generated from the leader",
+      "invalidGroupId": "Invalid group ID",
+      "missingNetworkId": "Missing network ID",
+      "missingMemberId": "Missing member ID",
+      "userIdNotFound": "Unable to find user ID to update",
+      "responsable2Disabled": "Responsible 2 (disabled)",
+      "selectExistingMember": "Select existing member",
+      "createNewMember": "Create new member",
+      "addGroupDialog": "Add Revival Group",
+      "networkResponsibles": "Responsible(s)",
+      "noSuperior": "None (network responsible)",
+      "networkResponsible": "Network responsible",
+      "group": "Group",
+      "responsable1Helper": "Available members",
+      "responsable2Helper": "Responsible 2 field is temporarily disabled",
+      "addGR": "Add a Revival Group",
+      "editGR": "Edit GR",
+      "addMember": "Add member",
+      "editMember": "Edit member",
+      "selectMember": "Select member",
+      "nomGroupe": "Group name (auto-generated)",
+      "sertDepartement": "Serves in a department",
+      "departement": "Department",
+      "cancel": "Cancel",
+      "username": "Username",
+      "pseudo": "Nickname",
+      "email": "Email",
+      "phone": "Phone",
+      "telephone": "Phone",
+      "address": "Address",
+      "profileImage": "Profile image",
+      "profileImageHelp": "Profile image URL (optional)",
+      "genre": "Gender",
+      "ageRange": "Age range",
+      "profession": "Profession",
+      "situationProfessionnelle": "Professional situation",
+      "residenceCity": "City of residence",
+      "city": "City of residence",
+      "originCountry": "Country of origin",
+      "origin": "Origin",
+      "maritalStatus": "Marital status",
+      "educationLevel": "Education level",
+      "qualification": "Qualification",
+      "deleteGr": "Delete GR",
+      "deleteGrContent": "Are you sure you want to delete this GR?",
+      "deleteMember": "Delete member",
+      "deleteMemberContent": "Are you sure you want to delete this member?",
+      "addCompanion": "Add a companion",
+      "noCompanionsInNetwork": "No companions of works in this network",
+      "selectUser": "Select a user",
+      "noAvailableCompanions": "No user with the \"Companion\" qualification available. (They must not be members of a GR and must not already be companions of this network)",
+      "editGroupDialog": "Edit group",
+      "selectResponsable": "Please select a responsible",
+      "noAvailableUsers": "No users available",
+      "noCompanions": "No companions of works",
+      "confirm": {
+        "deleteGroup": "Delete group",
+        "deleteGroupMessage": "Are you sure you want to delete this group?",
+        "removeCompanion": "Remove companion of works",
+        "removeCompanionMessage": "Are you sure you want to remove this companion of works?",
+        "removeMember": "Remove member",
+        "removeMemberMessage": "Are you sure you want to remove this member?"
+      },
+      "errors": {
+        "cannotRetrieveUserId": "Unable to retrieve user ID",
+        "invalidGroupId": "Invalid group ID",
+        "missingChurch": "Missing church",
+        "selectCompanion": "Please select a companion of works"
+      },
+      "stats": {
+        "qualification12": "Qualification 12",
+        "qualification144": "Qualification 144",
+        "qualification1728": "Qualification 1728",
+        "totalGroups": "Total GR",
+        "groupResponsibles": "Responsables GR",
+        "leaders": "Leaders",
+        "allLeaders": "Tous Leaders",
+        "simpleMembers": "Membres Simples"
+      }
+    }
+  },
+  "sections": {
+    "title": "Sections",
+    "loading": "Loading sections...",
+    "loadingError": "Error loading sections",
+    "noSectionsAvailable": "No sections available",
+    "list": {
+      "title": "Section List",
+      "filterByChurch": "Filter by church",
+      "responsables": "Responsible :",
+      "units": "Units :",
+      "total": "Total :"
+    },
+    "details": {
+      "title": "Section Details",
+      "statistics": "Section Statistics",
+      "units": "Units",
+      "totalMembers": "Simple Members",
+      "effectifTotal": "Total workforce",
+      "responsables": "Responsibles",
+      "responsable1": "Responsible 1",
+      "responsable2": "Responsible 2",
+      "noUnits": "No units",
+      "noMembers": "No members",
+      "nombreMembres": "Number of members :",
+      "addUnit": "Add unit",
+      "editUnit": "Edit unit",
+      "deleteUnit": "Delete unit",
+      "deleteUnitContent": "Are you sure you want to delete this unit?",
+      "addMember": "Add member",
+      "editMember": "Edit member",
+      "deleteMember": "Delete member",
+      "deleteMemberContent": "Are you sure you want to delete this member?",
+      "noUnitSelected": "No unit selected",
+      "invalidUnitId": "Invalid unit ID",
+      "missingMemberId": "Missing member ID",
+      "selectMember": "Select a member",
+      "selectExistingMember": "Select existing member",
+      "createNewMember": "Create new member",
+      "noStats": "No statistics available",
+      "stats": {
+        "unitResponsibles": "Unit responsibles",
+        "simpleMembers": "Simple members"
+      },
+      "form": {
+        "responsible1": "Responsible 1",
+        "responsible2Disabled": "Responsible 2 (This field is temporarily disabled)"
+      }
+    }
+  },
+  "messages": {
+    "recipients": "Recipients",
+    "searchUserHelper": "Start typing to search for a user from your church",
+    "noUsersFound": "No users found",
+    "content": "Message content",
+    "urgent": "Urgent message",
+    "markAsRead": "Mark as read",
+    "acknowledge": "Acknowledge",
+    "messages": "Messages",
+    "send": "Send",
+    "loading": "Loading messages...",
+    "sendMessage": "Send message",
+    "you": "Vous",
+    "conversationWith": "Conversation avec {name}",
+    "defaultSubject": "Message",
+    "searchPlaceholder": "Type to search for a user...",
+    "replyPlaceholder": "Type your message...",
+    "sendingPlaceholder": "Sending...",
+    "defaultUser": "User",
+    "online": "Online",
+    "offline": "Offline",
+    "errors": {
+      "loadingData": "Error loading data",
+      "fillRequiredFields": "Please fill in all required fields",
+      "sendMessage": "Error sending message",
+      "markAsRead": "Error marking message as read",
+      "acknowledge": "Error acknowledging message",
+      "invalidStructure": "Invalid conversation structure",
+      "loadConversation": "Error loading conversation",
+      "enterMessage": "Please enter a message",
+      "sendReply": "Error sending reply",
+      "userNotConnected": "User not connected"
+    },
+    "success": {
+      "messageSent": "Message sent successfully",
+      "markedAsRead": "Message marked as read",
+      "acknowledged": "Message acknowledged"
+    },
+    "status": {
+      "sent": "Message sent",
+      "read": "✓ Read",
+      "pending": "⏳ Pending",
+      "acknowledged": "✓ Acknowledged",
+      "acknowledgedAll": "Message read and acknowledged by all recipients",
+      "readBy": "Message read by {read}/{total} recipient(s)"
+    }
+  },
+  "history": {
+    "allActivities": "All activities",
+    "allEntities": "All entities",
+    "title": "Historique des Cultes",
+    "loadingError": "Erreur lors du chargement de l'historique",
+    "deletePrevisionnelSuccess": "Prévisionnel supprimé avec succès",
+    "deleteAssistanceSuccess": "Assistance supprimée avec succès",
+    "deleteError": "Erreur lors de la suppression",
+    "defaultCulteType": "Culte"
+  },
+  "stats": {
+    "selectChurch": "Please select a church to see statistics",
+    "assistance": {
+      "totalPresents": "Total Present",
+      "networkEffectif": "Network Effectif",
+      "difference": "Difference"
+    },
+    "previsionnel": {
+      "totalPrevisionnel": "Total Forecast",
+      "networkEffectif": "Network Effectif",
+      "difference": "Difference"
+    },
+    "overview": "Overview",
+    "members": "Members",
+    "networks": "Networks",
+    "sections": "Sections",
+    "groups": "GR",
+    "units": "Units",
+    "networkLeaders": "Network Leaders",
+    "sectionLeaders": "Section Leaders",
+    "groupLeaders": "Group Leaders",
+    "unitLeaders": "Unit Leaders",
+    "leaders": "Leaders",
+    "allLeaders": "All Leaders",
+    "companions": "Companions of Works",
+    "sectionMembers": "Section Members",
+    "regulars": "Regular",
+    "integration": "Integration",
+    "irregulars": "Irregular",
+    "governance": "Governance",
+    "ecodim": "Ecodim",
+    "ecodimLeaders": "Ecodim Leaders",
+    "isolatedPersons": "Isolated Persons",
+    "noDataForChurch": "No data available for this church",
+    "membersByNetwork": "Members by Network",
+    "monthlyEvolution": "Monthly Evolution",
+    "networkComparison": "Network Comparison",
+    "noMonthlyData": "No monthly data available",
+    "serviceAttendance": "Service attendance per service (last 8 Sundays)",
+    "service1": "Service 1",
+    "service2": "Service 2",
+    "service3": "Service 3",
+    "labels": {
+      "pieItem": "{name}: {value} ({percent}%)",
+      "quotedName": "\"{name}\""
+    },
+    "interpretation": {
+      "datePrefix": "On ",
+      "totalMembers": " there are ",
+      "persons": " persons in total. ",
+      "largestNetwork": "The largest network is ",
+      "with": " with ",
+      "members": " members",
+      "followedBy": ", followed by ",
+      "parentheses": " (",
+      "closeParentheses": ")",
+      "inMonth": "In ",
+      "networks": " networks ",
+      "wereCreated": " were created."
+    }
+  },
+  "menu": {
+    "networks": "Networks",
+    "services": "Services",
+    "members": "Members",
+    "forecasts": "Service Forecasts",
+    "attendance": "Service Attendance",
+    "overview": "Overview"
+  },
+  "home": {
+    "home": "Home",
+    "qualificationDistribution": "Qualification Distribution",
+    "genreDistribution": "Genre Distribution",
+    "ageDistribution": "Age Distribution",
+    "professionalSituationDistribution": "Professional Situation Distribution",
+    "maritalStatusDistribution": "Marital Status Distribution by Genre",
+    "maritalStatusByGenreDistribution": "Marital Status Distribution by Genre",
+    "title": "Welcome to your church",
+    "filterByChurch": "Filter by church",
+    "selectChurch": "Select a church",
+    "statsLoading": "Loading statistics...",
+    "totalEffectif": "Total Staff",
+    "gouvernance": "Governance",
+    "totalReseaux": "Total Networks",
+    "responsablesReseaux": "Network Leaders",
+    "totalGr": "Total GR",
+    "responsablesGr": "Group Leaders",
+    "totalSections": "Total Sections",
+    "responsablesSections": "Section Leaders",
+    "totalUnites": "Total Units",
+    "responsablesUnites": "Unit Leaders",
+    "membresSection": "Section Members",
+    "leaders": "Leaders",
+    "leadersTous": "All Leaders",
+    "companions": "Companions of Works",
+    "membresReguliers": "Regular Members",
+    "membresEnIntegration": "Members in Integration",
+    "membresIrréguliers": "Irregular Members",
+    "ecodim": "Ecodim",
+    "responsablesEcodim": "Ecodim Leaders",
+    "welcomeMessage": "Welcome message",
+    "historyOfCultes": "Service History",
+    "previsions": "Forecasts",
+    "assistance": "Attendance",
+    "welcome": {
+      "title": "MULTITUDES",
+      "welcomeMessage": "Welcome to MULTITUDES!",
+      "subtitle": "The platform for managing cults and networks of ACER churches in the northwestern zone"
+    },
+    "carousel": {
+      "noImages": "No images available",
+      "noFileSelected": "No file selected",
+      "preview": "Preview"
+    },
+    "members": {
+      "loading": {
+        "error": "Error loading members",
+        "members": "Loading members..."
+      }
+    },
+    "profileImageError": "Error loading profile image",
+    "noChurchSelected": "No church selected",
+    "selectChurchForService": "Please select a church in the global filter to create a service.",
+    "selectChurchForServices": "Please select a church in the global filter to view services",
+    "membresReseaux": "Membres réseaux"
+  },
+  "errors": {
+    "general": "An error occurred",
+    "error": "Error",
+    "auth401": "Authentication required. Please log in again.",
+    "permission403": "Access denied. You do not have the necessary permissions.",
+    "notFound404": "Resource not found.",
+    "conflict409": "Data conflict. This resource already exists.",
+    "server500": "Internal server error. Please try again later.",
+    "timeout": "Timeout exceeded. Check your internet connection.",
+    "tooManyRequests": "Too many requests. Please wait before trying again.",
+    "validation400": "Invalid data. Please check your information.",
+    "loading": {
+      "general": "Loading error",
+      "relations": "Error loading relations",
+      "data": "Error loading data",
+      "roles": "Error loading roles",
+      "objectives": "Error loading objectives",
+      "stats": "Error loading stats and objectives",
+      "networksAndSections": "Error loading networks and sections",
+      "history": "Error loading history"
+    },
+    "date": {
+      "formatting": "Date formatting error",
+      "invalidGenerated": "Invalid dates generated"
+    },
+    "authorization": "Authorization error",
+    "imageUploadFailed": "Image upload failed",
+    "adminOnlyRead": "The admin only has read rights",
+    "user": {
+      "alreadyExists": "This user already exists",
+      "notConnected": "User not connected"
+    },
+    "permissions": {
+      "insufficient": "Insufficient permissions",
+      "deleteMember": "You do not have permission to delete members",
+      "updateMember": "You do not have permission to update members",
+      "addMember": "You do not have permission to add a member"
+    },
+    "member": {
+      "cannotDelete": "Cannot delete this member",
+      "notFound": "Member not found",
+      "orGroup": {
+        "notFound": "Member or group not found"
+      }
+    },
+    "network": {
+      "connection": "Unable to contact the server. Check your internet connection and try again.",
+      "default": "Network error. Please check your connection."
+    },
+    "session": {
+      "expired": "Session expired. Please log in again.",
+      "expiredMessage": "Session expired. Please log in again."
+    },
+    "server": {
+      "internal": "Internal server error"
+    },
+    "file": {
+      "fileSelectorError": "Error: Unable to access file selector",
+      "alreadyExists": "A file with this name already exists. Please rename your file and try again.",
+      "tooLarge": "The file is too large. Please choose a smaller file.",
+      "saveError": "Error saving file. Please try again."
+    },
+    "preferences": {
+      "saveError": "Error saving to server, but local changes are applied"
+    },
+    "previsionnel": {
+      "notFound": "Forecast not found",
+      "accessDenied": "Unauthorized access to this forecast"
+    },
+    "assistance": {
+      "notFound": "Assistance not found",
+      "accessDenied": "Unauthorized access to this assistance",
+      "fillAllFields": "Please fill in all required fields",
+      "atLeastOnePresent": "Please enter at least one present",
+      "saveError": "Error during save"
+    },
+    "auth": {
+      "registration": "Error during registration"
+    },
+    "notFound": {
+      "title": "Page not found",
+      "message": "The page you are looking for does not exist or has been moved.",
+      "backHome": "Back to home",
+      "validation400": "Erreur de validation (400)",
+      "auth401": "Erreur d'authentification (401)",
+      "permission403": "Erreur de permission (403)",
+      "notFound404": "Ressource non trouvée (404)",
+      "conflict409": "Conflit de données (409)",
+      "server500": "Erreur serveur (500)",
+      "network": "Erreur réseau",
+      "timeout": "Erreur de timeout",
+      "tooManyRequests": "Trop de requêtes. Veuillez patienter un moment avant de rafraîchir."
+    },
+    "api": {
+      "title": "Error",
+      "getSessionDetails": "Error retrieving session details",
+      "getSessionUnits": "Error retrieving session units",
+      "addMember": "Error adding member",
+      "save": "Error during save",
+      "deletion": "Error during deletion",
+      "loadNetwork": "Error loading networks",
+      "loadSessions": "Error loading groups",
+      "loadStats": "Error loading stats",
+      "changePassword": "Error changing password",
+      "createGroup": "Error creating group",
+      "createService": "Error creating service",
+      "deleteGroup": "Error deleting group",
+      "deleteMember": "Error deleting member",
+      "deleteService": "Error deleting service",
+      "getGroup": "Error getting group",
+      "loadUsers": "Error loading users",
+      "updateGroup": "Error updating group",
+      "updateMember": "Error updating member",
+      "updateProfile": "Error updating profile",
+      "updateService": "Error updating service",
+      "selectChurch": "Please select a church",
+      "createUnit": "Error creating unit",
+      "updateUnit": "Error updating unit",
+      "deleteUnit": "Error deleting unit",
+      "getMember": "Error getting member",
+      "getAssistance": "Error getting assistance",
+      "getPrevisionnel": "Error getting forecast",
+      "serverError": "Server error. Please try again later.",
+      "invalidData": "Invalid data. Please check all required fields.",
+      "loadPrevisionnel": "Error loading forecast",
+      "loadAssistance": "Error loading assistance",
+      "upload": "Upload error",
+      "delete": "Delete error",
+      "role": "Role error",
+      "reset": "Reset error",
+      "registration": "Registration error",
+      "creation": "Creation error",
+      "update": "Update error",
+      "passwordReset": "Password reset error",
+      "passwordResetProcess": "Password reset process error",
+      "loadSession": "Error retrieving session",
+      "loadNetworkStats": "Error retrieving network stats",
+      "loadingAvailableMembers": "Error loading available members",
+      "loadingUnit": "Error loading unit",
+      "loadChurches": "Error loading churches",
+      "updateChurch": "Error updating church",
+      "operation": "Error during operation"
+    },
+    "validation": {
+      "invalidImageType": "Invalid image type",
+      "imageTooLarge": "Image is too large",
+      "dateRequired": "Date is required",
+      "typeCulteRequired": "Service type is required",
+      "allFieldsRequired": "Please fill in all required fields",
+      "invalidChurch": "Please select a valid church",
+      "invalidNetwork": "The selected network is not valid",
+      "invalidSection": "The selected section is not valid",
+      "invalidCategory": "Please select a valid category",
+      "invalidData": "The provided data is not valid. Please check your information.",
+      "errors": "Validation errors",
+      "cameraPermission": "Camera access permission denied",
+      "imageSelectError": "Error selecting image",
+      "validation400": "Validation error (400)",
+      "firstNameRequired": "First name is required",
+      "lastNameRequired": "Last name is required",
+      "email": "Invalid email format",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Invalid email address",
+      "churchRequired": "Church is required",
+      "personTypeRequired": "Person type is required",
+      "categoryRequired": "Category is required",
+      "usernameRequired": "Username is required",
+      "passwordRequired": "Password is required",
+      "genreRequired": "Gender is required",
+      "maritalStatusRequired": "Marital status is required",
+      "professionRequired": "Profession is required",
+      "qualificationRequired": "Qualification is required",
+      "educationRequired": "Education is required",
+      "originRequired": "Country of origin is required",
+      "cityRequired": "City is required",
+      "ageRangeRequired": "Age range is required",
+      "departmentsRequired": "Departments are required",
+      "confirmPasswordRequired": "Password confirmation is required",
+      "currentPasswordRequired": "Current password is required",
+      "newPasswordRequired": "New password is required",
+      "passwordMinLength": "Password must be at least 8 characters",
+      "passwordMismatch": "Passwords do not match",
+      "passwordMustBeDifferent": "New password must be different from current",
+      "serviceIdNotFound": "Service ID not found",
+      "title": "Validation Error",
+      "message": "Please correct the following errors:",
+      "passwordMinLength8": "Password must be at least 8 characters long",
+      "passwordComplexity": "Password must contain at least one uppercase letter, one lowercase letter, and one number",
+      "passwordUppercase": "Password must contain at least one uppercase letter",
+      "passwordLowercase": "Password must contain at least one lowercase letter",
+      "passwordNumber": "Password must contain at least one number",
+      "passwordSpecialChar": "Password must contain at least one special character",
+      "userIdMissing": "User ID missing",
+      "nameAndResponsibleRequired": "Name and main responsible are required",
+      "endDateMustBeFuture": "End date must be in the future",
+      "objectiveAndDateRequired": "Objective and end date are required",
+      "objectiveMustBePositive": "Objective must be a number greater than 0",
+      "orateurRequired": "Speaker is required",
+      "numberMustBePositive": "Number must be positive",
+      "adultsRequired": "Number of adults is required",
+      "childrenRequired": "Number of children is required",
+      "chantresRequired": "Number of singers is required",
+      "protocolesRequired": "Number of ushers is required",
+      "multimediaRequired": "Number of multimedia is required",
+      "ecodimResponsibleRequired": "ECODIM responsible is required",
+      "ecodimAnimatorsRequired": "Number of ECODIM facilitators is required",
+      "ecodimChildrenRequired": "Number of ECODIM children is required",
+      "supervisorRequired": "Supervisor is required"
+    },
+    "http": {
+      "400": "Invalid data. Please check your information.",
+      "401": "Session expired. Please log in again.",
+      "403": "Access denied. You do not have the necessary permissions.",
+      "404": "Resource not found.",
+      "409": "Data conflict. This resource already exists.",
+      "422": "Invalid validation data.",
+      "429": "Too many requests. Please wait before trying again.",
+      "500": "Internal server error. Please try again later.",
+      "502": "Service temporarily unavailable. Please try again.",
+      "503": "Service under maintenance. Please try again later.",
+      "default": "Server error ({status}). Please try again.",
+      "timeout": "Timeout exceeded. Check your internet connection.",
+      "cannotContactServer": "Cannot contact server. Check your internet connection.",
+      "deleteUserError": "Error deleting user",
+      "noDataReceived": "No data received from server",
+      "loadNetworksError": "Error loading networks",
+      "connectionError": "Connection error to server",
+      "unknownError": "Unknown error",
+      "loadChurchesError": "Error loading churches",
+      "socketReconnect": "Attempting to reconnect Socket.IO...",
+      "invalidDates": "Invalid dates generated",
+      "loadStatsError": "Error loading statistics",
+      "weekMonthYearFormat": "Format: Week/Month/Year",
+      "znoOnlyZone": "ZNO (Zone events only)",
+      "allEventsFromChurch": "{churchName} (All events from {churchName} and the Zone)"
+    },
+    "unexpected": {
+      "title": "Unexpected error",
+      "message": "An unexpected error occurred. Please try again.",
+      "unknown": "Unknown error",
+      "retry": "Retry",
+      "reload": "Reload page",
+      "details": "Error details"
+    },
+    "authentication": {
+      "title": "Authentication error (401)",
+      "message": "Token expired"
+    },
+    "image": {
+      "invalidFile": "Please select a valid image file",
+      "fileTooLarge": "The image must not exceed 5MB",
+      "uploadError": "Error uploading image"
+    },
+    "operation": {
+      "generic": "Error during operation",
+      "deletion": "Error during deletion",
+      "activityLog": "Error logging activity"
+    },
+    "testimony": {
+      "loading": "Connection error while loading testimonies",
+      "loadingError": "Error loading testimonies",
+      "deletion": "Connection error while deleting",
+      "deletionError": "Error during deletion",
+      "confirmation": "Connection error while confirming",
+      "confirmationError": "Error during confirmation",
+      "marking": "Connection error while marking",
+      "markingError": "Error during marking",
+      "addNote": "Connection error while adding note",
+      "addNoteError": "Error adding note",
+      "deleteNote": "Connection error while deleting note",
+      "audioReadError": "Error reading audio",
+      "deleteNoteError": "Error deleting note",
+      "similarExists": "A similar testimony already exists. Please check your data.",
+      "invalidSelection": "One of the selected information is not valid. Please check your choices.",
+      "submissionError": "An error occurred while submitting your testimony. Please try again in a few moments.",
+      "phoneOrEmailRequired": "A phone number or email is required to testify during a service",
+      "contentRequired": "Testimony is required (text or voice recording)",
+      "contentMinLength": "Testimony must contain at least 100 characters",
+      "contentMaxLength": "Testimony must not exceed 5000 characters",
+      "confirmedCount": "{count} confirmed testimony(ies)",
+      "noteAdded": "Note added to testimony: {title}"
+    },
+    "contactInfo": {
+      "loading": "Error loading contact information",
+      "update": "Error during update"
+    },
+    "messaging": {
+      "statsLoading": "Error loading messaging statistics"
+    },
+    "accessDenied": "Accès refusé",
+    "insufficientPermissions": "Vous n'avez pas les permissions nécessaires pour accéder à cette page.",
+    "contactAdmin": "Contactez un administrateur si vous pensez qu'il s'agit d'une erreur.",
+    "memberOrGroup": {
+      "notFound": "Membre ou groupe non trouvé"
+    }
+  },
+    "success": {
+      "success": "Success",
+      "profileUpdated": "Profile successfully updated",
+      "passwordChanged": "Password successfully changed",
+      "profileCompleteUpdated": "Full profile successfully updated",
+      "preferencesSaved": "Preferences successfully saved",
+      "serviceCreated": "Service successfully created",
+      "serviceUpdated": "Service successfully updated",
+      "serviceDeleted": "Service successfully deleted",
+      "groupCreated": "GR successfully added",
+      "groupUpdated": "GR successfully updated",
+      "groupDeleted": "GR successfully deleted",
+      "memberAdded": "Member successfully added",
+      "memberUpdated": "Member successfully updated",
+      "memberCreatedAndAdded": "Member created and added successfully",
+      "memberRemoved": "Member removed successfully",
+      "companionAdded": "Companion added successfully",
+      "companionRemoved": "Companion removed successfully",
+      "previsionnelUpdated": "Forecast updated successfully",
+      "previsionnelCreated": "Forecast created successfully",
+      "assistanceUpdated": "Assistance updated successfully",
+      "assistanceCreated": "Assistance created successfully",
+      "speakerCreated": "Speaker created successfully",
+      "roleChanged": "Role changed to {role} successfully",
+      "noteSaved": "Note saved successfully",
+      "noteDeleted": "Note deleted successfully",
+    "memberDeleted": "Member successfully deleted",
+    "passwordReset": "Password successfully reset!",
+    "operation": "Operation successfully completed",
+    "session": {
+      "created": "Session created successfully",
+      "updated": "Session updated successfully",
+      "deleted": "Session deleted successfully"
+    },
+    "unit": {
+      "created": "Unit created successfully",
+      "updated": "Unit updated successfully",
+      "deleted": "Unit deleted successfully"
+    },
+    "unitCreated": "Unit created successfully",
+    "unitUpdated": "Unit updated successfully",
+    "unitDeleted": "Unit deleted successfully",
+    "network": {
+      "created": "Network created successfully",
+      "updated": "Network updated successfully",
+      "deleted": "Network deleted successfully",
+      "loadObjectivesError": "Error loading objectives",
+      "loadObjectiveError": "Error loading objective",
+      "deleteObjectiveError": "Error deleting objective",
+      "objectiveManagement": "objective management",
+      "objectiveDeletion": "objective deletion"
+    },
+    "contact": {
+      "updated": "Contact information updated successfully"
+    },
+    "testimony": {
+      "deleted": "Testimony deleted successfully",
+      "confirmed": "Testimony confirmed for service",
+      "confirmationCancelled": "Service confirmation cancelled",
+      "markedAsDone": "Testimony marked as done"
+    }
+  },
+  "profile": {
+    "title": "My Profile",
+    "subtitle": "Manage your personal information",
+    "loading": "Loading profile...",
+    "tabs": {
+      "informations": "Information",
+      "preferences": "Preferences",
+      "security": "Security"
+    },
+    "basicInfo": {
+      "title": "Basic Information",
+      "username": "Username",
+      "pseudo": "Nickname",
+      "email": "Email",
+      "updateButton": "Update",
+      "editCompleteButton": "Edit full profile",
+      "updateSuccess": "Profile updated successfully",
+      "updateError": "Error updating profile"
+    },
+    "security": {
+      "title": "Security",
+      "currentPassword": "Current password",
+      "newPassword": "New password",
+      "confirmPassword": "Confirm new password",
+      "changePasswordButton": "Change password",
+      "passwordInfo": "Your password must contain at least 8 characters",
+      "updateButton": "Change password",
+      "updateSuccess": "Password changed successfully",
+      "updateError": "Error changing password",
+      "validation": {
+        "currentRequired": "Current password is required",
+        "newRequired": "New password is required",
+        "newMin": "New password must contain at least 6 characters",
+        "confirmRequired": "Password confirmation is required",
+        "confirmMatch": "Passwords do not match"
+      }
+    },
+    "completeProfile": {
+      "title": "Full Profile",
+      "username": "Username",
+      "pseudo": "Nickname",
+      "email": "Email",
+      "telephone": "Phone",
+      "genre": "Gender",
+      "trancheAge": "Age range",
+      "profession": "Profession",
+      "situationProfessionnelle": "Professional situation",
+      "villeResidence": "City of residence",
+      "origine": "Origin",
+      "situationMatrimoniale": "Marital status",
+      "niveauEducation": "Education level",
+      "adresse": "Address",
+      "image": "Profile image",
+      "imageHelp": "Profile image URL (optional)",
+      "departement": "Department (optional)",
+      "noDepartement": "No department",
+      "updateButton": "Update",
+      "note": "Note: Local church can only be modified by a super administrator.",
+      "loading": "Loading profile data..."
+    },
+    "deleteProfile": "Delete profile",
+    "deleteProfileContent": "Are you sure you want to delete your profile? This action is irreversible.",
+    "deleteProfileButton": "Delete profile",
+    "deleteProfileConfirm": "Delete profile",
+    "deleteProfileCancel": "Cancel",
+    "actions": {
+      "savePreferences": "Save preferences",
+      "saving": "Saving..."
+    },
+    "preferences": {
+      "title": "Preferences",
+      "language": {
+        "title": "Language",
+        "description": "Choose interface language",
+        "french": "French",
+        "english": "English"
+      },
+      "theme": {
+        "title": "Theme",
+        "description": "Choose interface appearance",
+        "light": "Light",
+        "dark": "Dark",
+        "auto": "Automatic",
+        "disabled": "Feature temporarily disabled"
+      },
+      "autoTheme": {
+        "title": "Automatic theme",
+        "description": "Automatically follow system preferences",
+        "enabled": "Enabled",
+        "disabled": "Disabled"
+      },
+      "save": "Save preferences",
+      "reset": "Reset preferences",
+      "preview": "Preview",
+      "changesSaved": "Preferences successfully saved",
+      "resetConfirm": "Preferences reset to default",
+      "unsavedChanges": "You have unsaved changes",
+      "themePreview": "Theme preview",
+      "themePreviewDescription": "Here is a preview of the selected theme",
+      "email": {
+        "title": "Email Notifications",
+        "notifications": "Receive email notifications",
+        "description": "Receive an email every time you receive a message",
+        "enabled": "You will receive email notifications for new messages"
+      },
+      "saveSuccess": "Preferences saved successfully",
+      "saveError": "Error saving preferences",
+      "saveButton": "Save"
+    },
+    "image": {
+      "changePhoto": "Change photo",
+      "serviceInDepartment": "Service in a department",
+      "previewTitle": "Image preview",
+      "confirmUpload": "Do you want to use this image as your profile photo?",
+      "uploadSuccess": "Profile photo updated successfully",
+      "uploadError": "Error updating profile photo",
+      "removeSuccess": "Profile photo removed successfully",
+      "removeError": "Error removing profile photo",
+      "invalidFileType": "Please select a valid image file",
+      "fileTooLarge": "File is too large (maximum 5MB)",
+      "permissionTitle": "Permission required",
+      "permissionMessage": "The application needs access to your photos to change your profile picture.",
+      "success": "Profile photo updated successfully",
+      "error": "Error updating profile photo"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "logout": "Logout",
+    "logoutTitle": "Logout",
+    "unauthorized": "Unauthorized access. Only managers, admins and super-admins can access the dashboard.",
+    "church": "Church",
+    "selectChurch": "Select a church",
+    "menu": {
+      "management": "Management",
+      "administration": "Administration",
+      "backToSite": "Back to site",
+      "sectionNotFound": "Section not found",
+      "statistics": "Statistics",
+      "networks": "Networks",
+      "sections": "Sections",
+      "members": "Members",
+      "mission": "Mission and Planting",
+      "configuration": "Configuration",
+      "overview": "Overview",
+      "services": "Services",
+      "networkManagement": "Network management",
+      "networkRecap": "Workforce recap",
+      "sectionManagement": "Section management",
+      "sectionRecap": "Workforce recap",
+      "memberManagement": "Member management",
+      "retiredMembers": "Retired members",
+      "interactiveMap": "Interactive map",
+      "churches": "Churches",
+      "departments": "Departments",
+      "carousel": "Carousel",
+      "previsionnelle": "Service forecasts",
+      "history": "History",
+      "activities": "Activities",
+      "events": "Events",
+      "eventsManagement": "Events Management",
+      "testimonies": "Testimonies",
+      "testimoniesManagement": "Testimonies",
+      "testimoniesCulte": "Service Testimonies"
+    },
+    "history": {
+      "title": "Activity History",
+      "allActivities": "All activities",
+      "allEntities": "All entities",
+      "add": "Add",
+      "edit": "Edit",
+      "delete": "Delete",
+      "user": "User",
+      "action": "Action",
+      "entity": "Entity",
+      "timestamp": "Date/Time",
+      "details": "Details",
+      "noActivities": "No activities found",
+      "loading": "Loading activities...",
+      "filterByAction": "Filter by action",
+      "filterByUser": "Filter by user",
+      "filterByEntity": "Filter by entity",
+      "clearFilters": "Clear filters",
+      "filters": "Filters",
+      "deletePrevisionnel": "Delete forecast",
+      "deleteAssistance": "Delete assistance",
+      "confirmDeletePrevisionnel": "Are you sure you want to delete the forecast from {date} ({typeCulte})?",
+      "confirmDeleteAssistance": "Are you sure you want to delete the assistance from {date} ({typeCulte})?",
+      "loadingError": "Error loading history",
+      "deletePrevisionnelSuccess": "Forecast deleted successfully",
+      "deleteAssistanceSuccess": "Assistance deleted successfully",
+      "deleteError": "Error during deletion",
+      "defaultCulteType": "Service"
+    },
+    "carousel": {
+      "title": "Carousel Management",
+      "newImage": "New Image",
+      "noFileSelected": "No file selected",
+      "preview": "Preview",
+      "uploadSuccess": "Image uploaded successfully",
+      "uploadError": "Error uploading image",
+      "deleteSuccess": "Image deleted successfully",
+      "deleteError": "Error deleting image",
+      "loadingError": "Error loading carousel",
+      "noImages": "No images available",
+      "readOnlyAdmin": "Only administrators can modify",
+      "dialog": {
+        "title": "Add New Image",
+        "selectImage": "Select Image",
+        "create": "Create"
+      },
+      "table": {
+        "image": "Image",
+        "path": "Path",
+        "actions": "Actions"
+      },
+      "deleteDialog": {
+        "title": "Delete Image",
+        "content": "Are you sure you want to delete this image?",
+        "contentGeneric": "Are you sure you want to delete this image?"
+      },
+      "activityLog": "Carousel image added: {fileName}"
+    },
+    "churches": {
+      "title": "Churches Management",
+      "newChurch": "New Church",
+      "loading": "Loading churches...",
+      "loadingError": "Error loading churches",
+      "loadResponsablesError": "Error loading responsibles",
+      "serverError": "Server error",
+      "accessDenied": "Access denied",
+      "permissions": {
+        "insufficient": "You do not have permission to perform this action",
+        "addMember": "You do not have permission to add members to this group",
+        "updateMember": "You do not have the necessary permissions to modify this member",
+        "deleteMember": "You do not have the necessary permissions to delete this member"
+      },
+      "session": {
+        "expired": "Session expired. You will be redirected to the login page."
+      },
+      "authorization": "Authorization error",
+      "validation": {
+        "invalidData": "Invalid data. Check the information entered."
+      },
+      "user": {
+        "alreadyExists": "A user with this username, pseudo or email already exists."
+      },
+      "server": {
+        "internal": "Internal server error. Check the console for more details."
+      },
+      "member": {
+        "notFound": "Member not found.",
+        "cannotDelete": "Cannot delete this member. Check that it has no associated data."
+      },
+      "memberOrGroup": {
+        "notFound": "Member or group not found."
+      },
+      "cityInfoRetrieved": "City information retrieved",
+      "createSuccess": "Church created successfully",
+      "updateSuccess": "Church updated successfully",
+      "deleteSuccess": "Church deleted successfully",
+      "deleteError": "Error deleting church",
+      "deleteServerError": "Server error during deletion",
+      "deleteConstraintError": "Cannot delete church with dependencies",
+      "operationError": "Operation error",
+      "invalidData": "Invalid data",
+      "notFound": "Church not found",
+      "readOnlyAdmin": "Only administrators can modify",
+      "noChurches": "No churches available",
+      "searchPlaceholder": "Search for a church...",
+      "dialog": {
+        "createTitle": "Create New Church",
+        "editTitle": "Edit Church"
+      },
+      "form": {
+        "churchName": "Church Name",
+        "city": "City",
+        "retrievingInfo": "Retrieving city information...",
+        "cityHelper": "Enter city name to get information",
+        "population": "Population",
+        "inhabitants": "inhabitants",
+        "fullAddress": "Full Address",
+        "addressHelper": "Address information",
+        "cityPopulation": "City Population",
+        "description": "Description",
+        "responsible": "Responsible",
+        "none": "None",
+        "noAssignedChurch": "No church assigned",
+        "noGovernanceUsers": "No governance users available",
+        "type": "Type",
+        "typeChurch": "Church",
+        "typeMission": "Mission",
+        "chooseImage": "Choose Image"
+      },
+      "table": {
+        "name": "Name",
+        "city": "City",
+        "address": "Address",
+        "members": "Members",
+        "responsible": "Responsible",
+        "actions": "Actions"
+      },
+      "deleteDialog": {
+        "title": "Delete Church",
+        "content": "Are you sure you want to delete this church?",
+        "contentGeneric": "Are you sure you want to delete this church?"
+      }
+    },
+    "departments": {
+      "title": "Departments Management",
+      "newDepartment": "New Department",
+      "searchPlaceholder": "Search departments...",
+      "loadingError": "Error loading departments",
+      "createSuccess": "Department created successfully",
+      "updateSuccess": "Department updated successfully",
+      "deleteSuccess": "Department deleted successfully",
+      "deleteError": "Error deleting department",
+      "operationError": "Operation error",
+      "readOnlyAdmin": "Only administrators can modify",
+      "noDepartments": "No departments available",
+      "noSearchResults": "No search results",
+      "dialog": {
+        "createTitle": "Create New Department",
+        "editTitle": "Edit Department"
+      },
+      "form": {
+        "departmentName": "Department Name"
+      },
+      "table": {
+        "name": "Name",
+        "members": "Members",
+        "actions": "Actions"
+      },
+      "deleteDialog": {
+        "title": "Delete Department",
+        "content": "Are you sure you want to delete this department?",
+        "contentGeneric": "Are you sure you want to delete this department?"
+      }
+    },
+    "groups": {
+      "title": "Groups Management",
+      "addGroup": "Add Group",
+      "loading": "Loading groups...",
+      "loadingError": "Error loading groups",
+      "createSuccess": "Group created successfully",
+      "updateSuccess": "Group updated successfully",
+      "deleteSuccess": "Group deleted successfully",
+      "deleteError": "Error deleting group",
+      "operationError": "Operation error",
+      "readOnlyAdmin": "Only administrators can modify",
+      "selectChurchMessage": "Please select a church first",
+      "noGroups": "No groups available",
+      "activityLog": {
+        "modified": "Group modified: {groupName}",
+        "created": "Group created: {groupName}"
+      },
+      "dialog": {
+        "createTitle": "Create New Group",
+        "editTitle": "Edit Group"
+      },
+      "form": {
+        "name": "Group Name",
+        "responsible1": "Responsible 1",
+        "responsible2": "Responsible 2",
+        "selectResponsible": "Select Responsible",
+        "responsible2Disabled": "Responsable 2 (Ce champ est temporairement désactivé)"
+      },
+      "table": {
+        "name": "Name",
+        "responsible1": "Responsible 1",
+        "responsible2": "Responsible 2",
+        "members": "Members",
+        "actions": "Actions"
+      },
+      "deleteDialog": {
+        "title": "Delete Group",
+        "content": "Are you sure you want to delete this group?",
+        "contentGeneric": "Are you sure you want to delete this group?"
+      }
+    },
+    "overview": {
+      "title": "Overview",
+      "stats": {
+        "members": "Members",
+        "networks": "Networks",
+        "groups": "GR",
+        "sections": "Sections",
+        "units": "Units",
+        "networkLeaders": "Network Leaders",
+        "groupLeaders": "Group Leaders",
+        "sectionLeaders": "Section Leaders",
+        "unitLeaders": "Unit Leaders",
+        "allLeaders": "All Leaders",
+        "companions": "Companions of Works",
+        "sectionMembers": "Section Members",
+        "regular": "Regular",
+        "integration": "Integration",
+        "irregular": "Irregular",
+        "totalMembers": "Total Members",
+        "networkMembers": "Membres réseaux"
+      },
+      "detailedStats": "Detailed Statistics"
+    },
+    "stats": {
+      "title": "Title",
+      "general": "General",
+      "networks": "Networks",
+      "services": "Services",
+      "members": "Members"
+    },
+    "statsMembres": {
+      "evolutionTitle": "Member Evolution (Last 12 Months)",
+      "monthLabel": "Month: {month}"
+    },
+    "networks": {
+      "title": "Networks",
+      "management": "Network Management",
+      "overview": "Network Overview",
+      "newNetwork": "New Network",
+      "editNetwork": "Edit Network",
+      "loading": "Loading networks...",
+      "loadingError": "Loading error",
+      "noNetworks": "No networks available",
+      "noNetworksForChurch": "No networks have been created yet for the church \"{churchName}\"",
+      "noSearchResults": "No networks match your search",
+      "selectChurchMessage": "Please select a church to see networks",
+      "searchPlaceholder": "Search for a network...",
+      "table": {
+        "name": "Name",
+        "responsibles": "Responsible(s)",
+        "church": "Church",
+        "actions": "Actions"
+      },
+      "form": {
+        "networkName": "Network name",
+        "responsible1": "Responsible 1 (available users)",
+        "responsible2": "Responsible 2 (disabled)",
+        "responsible1Helper": "Available users (isolated) + current network responsible",
+        "responsible2Helper": "Responsible 2 field is temporarily disabled",
+        "none": "None"
+      },
+      "dialog": {
+        "editTitle": "Edit Network",
+        "createTitle": "New Network"
+      },
+      "deleteDialog": {
+        "title": "Delete Network",
+        "content": "Are you sure you want to delete the network {networkName}?",
+        "contentGeneric": "Are you sure you want to delete this network?"
+      },
+      "success": {
+        "created": "Network created successfully",
+        "updated": "Network updated successfully",
+        "deleted": "Network deleted successfully"
+      },
+      "errors": {
+        "form": "Name and primary responsible are required",
+        "operation": "Error during operation",
+        "deleteMember": "Error deleting member",
+        "getGroup": "Error retrieving group",
+        "upload": "Error uploading image",
+        "delete": "Error during deletion",
+        "addGroup": "Error adding group",
+        "updateGroup": "Error updating group",
+        "deleteGroup": "Error deleting group",
+        "invalidGroupId": "Invalid group ID",
+        "addMember": "Error adding member",
+        "updateMember": "Error updating member",
+        "removeMember": "Error removing member",
+        "selectCompanion": "Please select a companion",
+        "addCompanion": "Error adding companion",
+        "removeCompanion": "Error removing companion",
+        "loadData": "Error loading data",
+        "cannotRetrieveUserId": "Unable to retrieve new user ID"
+      },
+      "confirm": {
+        "deleteGroup": "Confirm deletion",
+        "deleteGroupMessage": "Are you sure you want to delete this group?",
+        "removeMember": "Confirm removal",
+        "removeMemberMessage": "Are you sure you want to remove this member from the group?",
+        "removeCompanion": "Confirm removal",
+        "removeCompanionMessage": "Are you sure you want to remove this companion?"
+      },
+      "groups": {
+        "title": "Network Groups",
+        "responsible1": "Responsible 1",
+        "responsible2": "Responsible 2",
+        "members": "Members",
+        "expand": "Expand",
+        "collapse": "Collapse"
+      },
+      "recap": {
+        "title": "Network Summary",
+        "refresh": "Refresh",
+        "table": {
+          "networkName": "Network name",
+          "totalMembers": "Total members",
+          "nb12": "Number of 12",
+          "nb144": "Number of 144",
+          "groupCount": "Number of GR",
+          "groupResponsablesCount": "Number of GR Resp.",
+          "totals": "Totals"
+        }
+      },
+      "noNetworksAvailable": "Aucun réseau disponible pour le moment"
+    },
+    "sections": {
+      "title": "Sections",
+      "management": "Section Management",
+      "newSection": "New Section",
+      "editSection": "Edit Section",
+      "loading": "Loading sections...",
+      "loadingError": "Loading error",
+      "noSections": "No sections available",
+      "noSearchResults": "No sections match your search",
+      "selectChurchMessage": "Please select a church to see sections",
+      "searchPlaceholder": "Search for a section...",
+      "table": {
+        "name": "Name",
+        "responsibles": "Responsible(s)",
+        "actions": "Actions"
+      },
+      "form": {
+        "sectionName": "Section name",
+        "responsible1": "Responsible 1",
+        "responsible2": "Responsible 2"
+      },
+      "dialog": {
+        "editTitle": "Edit Section",
+        "createTitle": "New Section"
+      },
+      "deleteDialog": {
+        "title": "Delete Section",
+        "content": "Are you sure you want to delete the section {sectionName}?",
+        "contentGeneric": "Are you sure you want to delete this section?"
+      },
+      "recap": {
+        "title": "Section Summary",
+        "refresh": "Refresh",
+        "table": {
+          "sectionName": "Section name",
+          "totalMembers": "Total members",
+          "nbUnits": "Number of units",
+          "totals": "Totals"
+        }
+      }
+    },
+    "members": {
+      "title": "Members",
+      "management": "Member Management",
+      "newMember": "New Member",
+      "editMember": "Edit Member",
+      "loading": {
+        "error": "Error loading members",
+        "members": "Loading members..."
+      },
+      "loadingError": "Loading error",
+      "noMembers": "No members available",
+      "selectChurchMessage": "Please select a church to see members",
+      "searchPlaceholder": "Search for a member...",
+      "foundCount": "Members found: {count}",
+      "table": {
+        "name": "Name",
+        "email": "Email",
+        "phone": "Phone",
+        "qualification": "Qualification",
+        "role": "Role",
+        "actions": "Actions"
+      },
+      "form": {
+        "username": "Username",
+        "pseudo": "Pseudo",
+        "role": "Role",
+        "genre": "Gender",
+        "ageRange": "Age range",
+        "profession": "Profession",
+        "situationProfessionnelle": "Professional situation",
+        "residenceCity": "Residence city",
+        "origin": "Origin",
+        "maritalStatus": "Marital status",
+        "educationLevel": "Education level",
+        "qualification": "Qualification",
+        "email": "Email",
+        "phone": "Phone",
+        "address": "Address",
+        "profileImage": "Profile Image",
+        "departments": "Departments",
+        "profileImageHelper": "Leave empty to use default image",
+        "servesDepartment": "Serves in a department",
+        "department": "Department",
+        "localChurch": "Local church",
+        "noDepartment": "No longer serves",
+        "yes": "Yes",
+        "no": "No",
+        "noDepartmentsFound": "No departments found",
+        "defaults": {
+          "gender": "MALE",
+          "ageRange": "26-35 years",
+          "profession": "Not specified",
+          "city": "Rennes",
+          "origin": "France",
+          "maritalStatus": "Single",
+          "education": "Bachelor's degree, professional certificate or equivalent",
+          "role": "MEMBER",
+          "qualification": "IN_INTEGRATION"
+        },
+        "placeholder": {
+          "imageUrl": "https://example.com/image.jpg"
+        }
+      },
+      "dialog": {
+        "editTitle": "Edit Member",
+        "createTitle": "New Member",
+        "update": "Update",
+        "create": "Create"
+      },
+      "deleteDialog": {
+        "title": "Delete Member",
+        "content": "Are you sure you want to delete the member {memberName}?",
+        "contentGeneric": "Are you sure you want to delete this member?"
+      },
+      "success": {
+        "created": "Member created successfully",
+        "updated": "Member updated successfully",
+        "deleted": "Member deleted successfully",
+        "roleUpdated": "Role updated",
+        "passwordReset": "Password reset",
+        "memberDeleted": "Member deleted"
+      },
+      "errors": {
+        "requiredFields": "Missing required fields: {fields}",
+        "save": "Error during save",
+        "roleAssignment": "Error during role assignment",
+        "loadingChurches": "loading churches",
+        "loadingDepartments": "loading departments",
+        "loadingIsolatedMembers": "loading isolated members",
+        "loadingGroups": "loading groups",
+        "cannotAssignRole": "You cannot assign this role",
+        "passwordReset": "Error during password reset",
+        "deletion": "Error during deletion"
+      },
+      "actions": {
+        "assignRole": "Assign role",
+        "resetPassword": "Reset password",
+        "edit": "Edit",
+        "delete": "Delete",
+        "viewDetails": "View details"
+      },
+      "roleDialog": {
+        "title": "Assign Role",
+        "role": "Role",
+        "cancel": "Cancel",
+        "validate": "Validate",
+        "selectRoles": "Select roles",
+        "helper": "You can assign multiple roles. The highest role will be set as the primary role.",
+        "assign": "Assign roles"
+      },
+      "resetPasswordDialog": {
+        "title": "Password Reset",
+        "newPasswordFor": "New password for {username}:",
+        "copyPassword": "Copy password",
+        "passwordInfo": "This temporary password must be communicated securely to the member.",
+        "close": "Close"
+      },
+      "filters": {
+        "title": "Filter by category",
+        "all": "All",
+        "networkResponsible": "Network responsible",
+        "groupResponsibles": "GR responsibles",
+        "leader": "Leader",
+        "allLeaders": "Leaders (all)",
+        "regular": "Regular",
+        "integration": "In integration",
+        "irregular": "Irregular",
+        "governance": "Governance",
+        "ecodim": "Ecodim",
+        "ecodimResponsible": "Ecodim responsible",
+        "qualification12": "12",
+        "qualification144": "144",
+        "qualification1728": "1728",
+        "companionOfWorks": "Companion of works",
+        "isolatedPeople": "Isolated people",
+        "sessionResponsible": "Session responsible",
+        "unitResponsible": "Unit responsible"
+      },
+      "permissions": {
+        "managerFullRights": "Manager has full rights on their church only",
+        "adminReadOnly": "Admin has read-only rights"
+      }
+    },
+    "retired": {
+      "title": "Retired members",
+      "empty": "No retired members found.",
+      "table": {
+        "name": "Name",
+        "pseudo": "Nickname",
+        "qualification": "Qualification",
+        "group": "Group left",
+        "network": "Network",
+        "leftAt": "Exit date"
+      }
+    },
+    "mission": {
+      "title": "Mission and Implantation",
+      "centerOnFrance": "Center on France",
+      "zones": {
+        "northWest": "North-West Zone",
+        "northEast": "North-East Zone",
+        "southWest": "South-West Zone",
+        "southEast": "South-East Zone",
+        "center": "Center Zone"
+      },
+      "legend": {
+        "zones": "Zone Legend",
+        "markers": "Markers"
+      },
+      "markers": {
+        "church": "Church",
+        "mission": "Mission"
+      },
+      "popup": {
+        "address": "Address:",
+        "responsible": "Responsible:",
+        "numberOfMembers": "Number of members:",
+        "notSpecified": "Not specified",
+        "notSpecifiedMale": "Not specified"
+      }
+    },
+    "users": {
+      "retired": "Retired"
+    },
+    "expandedItems": "Statistiques",
+    "defaultRole": "Utilisateur"
+  },
+  "qualifications": {
+    "governance": "Governance",
+    "networkResponsible": "Network responsible",
+    "ecodim": "Ecodim",
+    "ecodimResponsible": "Ecodim responsible",
+    "companionOfWorks": "Companion of works",
+    "sectionResponsible": "Section responsible",
+    "unitResponsible": "Unit responsible",
+    "sectionMember": "Section member"
+  },
+  "chaineImpact": {
+    "title": "Impact chain",
+    "subtitle": "Hierarchical chart of leaders",
+    "update": "Update chain",
+    "noData": "No data available",
+    "noDataDescription": "The impact chain will be automatically generated when creating groups with hierarchical superiors",
+    "updateChainMessage": "Click on \"Update chain\" to generate the impact chain",
+    "totalNodesSingular": "Total of {count} node in the hierarchy",
+    "totalNodesPlural": "Total of {count} nodes in the hierarchy",
+    "noChainFound": "No impact chain found",
+    "navigationInstructions": "Drag to move • Scroll wheel to zoom"
+  },
+  "footer": {
+    "copyright": "© 2025 - ACER Rennes - All rights reserved",
+    "socialMedia": "Follow us on our social media"
+  },
+  "loading": {
+    "preparing": "Please wait, preparing your space!",
+    "error": "Oops, an error occurred!",
+    "loadingServices": "Loading services data"
+  },
+  "images": {
+    "loadingError": "Error while loading images:"
+  },
+  "common_text": {
+    "unknownName": "Unknown name",
+    "noName": "Unknown name",
+    "notDefined": "Not defined",
+    "chooseChurch": "Select a church",
+    "noChurch": "No church selected",
+    "notAvailable": "N/A"
+  },
+  "assistance": {
+    "dashboard": {
+      "title": "Assistance Dashboard",
+      "subtitle": "Statistics and analysis of service attendance",
+      "noData": "No data available",
+      "noDataDescription": "No attendance has been recorded for this network",
+      "filters": {
+        "title": "Filters",
+        "church": "Church",
+        "allNetworks": "All Networks",
+        "allTypes": "All",
+        "network": "Network",
+        "type": "Service",
+        "dateFrom": "Date From",
+        "dateTo": "Date To",
+        "apply": "Apply",
+        "reset": "Reset"
+      },
+      "stats": {
+        "totalPresents": "Total Present",
+        "networkEffectif": "Network Effectif",
+        "effectifReel": "Real Staff",
+        "difference": "Difference",
+        "precision": "Precision"
+      },
+      "chart": {
+        "title": "Attendance Chart",
+        "effectifReel": "Real Staff",
+        "assistance": "Attendance",
+        "noData": "No data available"
+      },
+      "table": {
+        "title": "Detailed Statistics",
+        "network": "Network",
+        "type": "Type",
+        "date": "Date",
+        "effectifReel": "Real Staff",
+        "assistance": "Attendance",
+        "difference": "Difference",
+        "tauxPresence": "Attendance Rate"
+      }
+    },
+    "form": {
+      "comparisonDescription": "Compare attendance with real staff",
+      "comparisonTitle": "Comparison",
+      "date": "Date",
+      "ecart": "Gap",
+      "groupes": "GR",
+      "groupesDescription": "Groups in this network",
+      "invites": "Guests",
+      "invitesDescription": "Number of guests present",
+      "nombreInvites": "Number of guests",
+      "responsablesReseau": "Network Leaders",
+      "compagnonsOeuvre": "Companions of Works",
+      "responsablesEtCO": "Leaders and Companions",
+      "responsablesEtCODescription": "Enter the number of network leaders and companions of works present",
+      "nombrePresents": "Number present",
+      "presents": "Present",
+      "previsionnel": "Forecast",
+      "save": "Save attendance",
+      "subtitle": "Record service attendance",
+      "title": "Service Attendance",
+      "editTitle": "Edit Service Attendance",
+      "totalMembres": "Total members",
+      "totalPresents": "Total present",
+      "typeCulte": "Service Type",
+      "create": "Assistance au culte"
+    },
+    "success": {
+      "created": "Assistance created successfully",
+      "updated": "Assistance updated successfully"
+    },
+    "errors": {
+      "notFound": "Assistance not found"
+    },
+    "title": "Service Assistance",
+    "subtitle": "Track service attendance",
+    "stats": {
+      "title": "Assistance Statistics",
+      "subtitle": "Detailed assistance analysis",
+      "filters": {
+        "date": "Date",
+        "network": "Network",
+        "typeCulte": "Service Type"
+      },
+      "chart": {
+        "title": "Assistance Chart",
+        "previsionnel": "Forecast",
+        "assistance": "Assistance"
+      },
+      "table": {
+        "date": "Date",
+        "network": "Network",
+        "typeCulte": "Service Type",
+        "previsionnel": "Previsionnel",
+        "assistance": "Assistance",
+        "ecart": "Ecart",
+        "taux": "Taux",
+        "responsablesReseau": "Responsables de réseau",
+        "compagnonsOeuvre": "Compagnons d'œuvre",
+        "invites": "Invités"
+      }
+    }
+  },
+  "previsionnel": {
+    "modal": {
+      "title": "Create Service Forecast",
+      "editTitle": "Edit Service Forecast",
+      "subtitle": "Create a staff forecast for the network"
+    },
+    "form": {
+      "date": "Forecast Date",
+      "typeCulteLabel": "Service Type",
+      "typeCulte": {
+        "dimanche": "Sunday",
+        "mercredi": "Wednesday",
+        "vendredi": "Friday",
+        "reunionPriere": "Prayer Meeting",
+        "etudeBiblique": "Bible Study",
+        "special": "Special"
+      },
+      "responsablesReseau": "Network Leaders",
+      "compagnonsOeuvre": "Companions of Works",
+      "responsablesEtCO": "Leaders and Companions",
+      "responsablesEtCODescription": "Enter the number of network leaders and companions of works expected",
+      "groupes": "Group Forecasts",
+      "groupesDescription": "Enter the forecast value for each group in the network",
+      "totalMembres": "Total Members",
+      "valeurPrevisionnelle": "Forecast Value",
+      "invites": "Guests",
+      "invitesDescription": "Add the number of expected guests for this service",
+      "nombreInvites": "Number of Guests",
+      "totalPrevisionnel": "Total Forecast",
+      "save": "Save Forecast"
+    },
+    "button": {
+      "create": "Create Service Forecast"
+    },
+    "errors": {
+      "noPrevision": "At least one group must have a forecast greater than 0",
+      "notFound": "Forecast not found"
+    },
+    "success": {
+      "created": "Forecast created successfully",
+      "updated": "Forecast updated successfully",
+      "deleted": "Forecast deleted successfully"
+    },
+    "dashboard": {
+      "title": "Forecast Dashboard",
+      "subtitle": "Statistics and analysis of service forecasts",
+      "noData": "No data available",
+      "noDataDescription": "No forecasts have been created for this network",
+      "filters": {
+        "title": "Filters",
+        "church": "Church",
+        "allNetworks": "All Networks",
+        "allTypes": "All",
+        "network": "Network",
+        "type": "Service Type",
+        "dateFrom": "Date From",
+        "dateTo": "Date To",
+        "apply": "Apply",
+        "reset": "Reset"
+      },
+      "stats": {
+        "totalReel": "Real Total",
+        "totalPrevu": "Forecast Total",
+        "networkEffectif": "Network Effectif",
+        "difference": "Difference",
+        "precision": "Precision"
+      },
+      "chart": {
+        "title": "Forecast Chart",
+        "effectifReel": "Real Staff",
+        "previsionnel": "Forecast",
+        "noData": "No data available",
+        "legend": "Legend"
+      },
+      "table": {
+        "title": "Detailed Statistics",
+        "network": "Network",
+        "type": "Type",
+        "date": "Date",
+        "effectifReel": "Real Staff",
+        "previsionnel": "Forecast",
+        "difference": "Difference",
+        "precision": "Precision"
+      },
+      "menu": {
+        "previsionnelle": "Forecast",
+        "assistance": "Assistance",
+        "chaineImpact": "Impact Chain"
+      }
+    },
+    "title": "Prévisionnels des cultes"
+  },
+  "security": {
+    "consoleWarning": {
+      "title": "Unauthorized Access",
+      "message": "This application is protected against unauthorized inspection. If you are a legitimate developer, contact the system administrator.",
+      "footer": "Any unauthorized access attempt will be logged and reported."
+    }
+  },
+  "historys": {
+    "title": "Activity history",
+    "allActivities": "All activities",
+    "add": "Add",
+    "edit": "Edit",
+    "delete": "Delete",
+    "user": "User",
+    "action": "Action",
+    "entity": "Entity",
+    "timestamp": "Date/Time",
+    "details": "Details",
+    "noActivities": "No activities found",
+    "loading": "Loading activities...",
+    "filterByAction": "Filter by action",
+    "filterByUser": "Filter by user",
+    "filterByEntity": "Filter by entity",
+    "clearFilters": "Clear filters",
+    "table": {
+      "entityName": "Entity name"
+    },
+    "errors": {
+      "load": "Error loading activities"
+    },
+    "actions": {
+      "login": "Login",
+      "logout": "Logout",
+      "view": "View",
+      "export": "Export",
+      "import": "Import"
+    },
+    "entities": {
+      "user": "User",
+      "network": "Network",
+      "group": "Group",
+      "service": "Service",
+      "church": "Church",
+      "department": "Department",
+      "testimony": "Testimony",
+      "carousel": "Carousel",
+      "previsionnel": "Forecast",
+      "assistance": "Attendance",
+      "message": "Message"
+    }
+  },
+  "events": {
+    "title": "Events Calendar",
+    "subtitle": "Discover the upcoming events of our church",
+    "noEvents": "No events scheduled",
+    "noEventsDescription": "Come back soon to discover our upcoming events",
+    "loading": "Loading events...",
+    "eventDetails": "Event Details",
+    "filterByChurch": "Filter by church",
+    "allChurches": "All churches",
+    "today": "Today",
+    "eventsFor": "Events for",
+    "eventTypes": {
+      "GENERAL": "General",
+      "CULTE": "Service",
+      "REUNION": "Meeting",
+      "FORMATION": "Training",
+      "EVANGELISATION": "Evangelism",
+      "SOCIAL": "Social",
+      "JEUNESSE": "Youth",
+      "ENFANTS": "Children",
+      "FEMMES": "Women",
+      "HOMMES": "Men",
+      "AUTRE": "Other"
+    },
+    "months": {
+      "january": "January",
+      "february": "February",
+      "march": "March",
+      "april": "April",
+      "may": "May",
+      "june": "June",
+      "july": "July",
+      "august": "August",
+      "september": "September",
+      "october": "October",
+      "november": "November",
+      "december": "December"
+    },
+    "days": {
+      "sunday": "Sunday",
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "saturday": "Saturday"
+    },
+    "daysShort": {
+      "sun": "Sun",
+      "mon": "Mon",
+      "tue": "Tue",
+      "wed": "Wed",
+      "thu": "Thu",
+      "fri": "Fri",
+      "sat": "Sat"
+    },
+    "filters": {
+      "month": "Month",
+      "year": "Year",
+      "view": {
+        "month": "Month view",
+        "year": "Year view"
+      }
+    },
+    "form": {
+      "title": "Event Title",
+      "description": "Description",
+      "startDate": "Start Date",
+      "startTime": "Start Time",
+      "endDate": "End Date",
+      "endTime": "End Time",
+      "deleteConfirm": "Are you sure you want to delete this event?",
+      "location": "Location",
+      "eventType": "Event Type",
+      "isPublic": "Public Event",
+      "shareLink": "Share Link",
+      "shareLinkPlaceholder": "https://example.com/registration",
+      "shareLinkHelper": "Optional. The QR code will be generated from this link.",
+      "alertOffset": "Reminder (alert)",
+      "alertOffsetHelper": "Sets the alert used in personal calendars (ICS feed).",
+      "alertOffsetOption": {
+        "none": "No alert",
+        "minutes": "{value} min before",
+        "hours": "{value} h before",
+        "days": "{value} day(s) before"
+      },
+      "alertOffsetLabel": "Alert: {value}",
+      "save": "Save",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "edit": "Edit",
+      "add": "Add Event"
+    },
+    "dashboard": {
+      "title": "Events Management",
+      "subtitle": "Manage your church events",
+      "addEvent": "Add Event",
+      "viewEvents": "View Event",
+      "publicLink": "Public Link",
+      "qrCode": "QR Code",
+      "noEvent": "No event"
+    },
+    "errors": {
+      "titleRequired": "Title is required",
+      "startDateRequired": "Start date is required",
+      "endDateBeforeStart": "End date must be after start date",
+      "createFailed": "Error creating event",
+      "updateFailed": "Error updating event",
+      "deleteFailed": "Error deleting event",
+      "loadFailed": "Error loading events"
+    },
+    "success": {
+      "created": "Event created successfully",
+      "updated": "Event updated successfully",
+      "deleted": "Event deleted successfully"
+    },
+    "actions": {
+      "copyIcsLink": "Copy ICS link",
+      "openIcsLink": "Open ICS feed"
+    },
+    "notifications": {
+      "shareLinkCopied": "Link copied to clipboard.",
+      "shareLinkError": "Unable to copy the link right now.",
+      "icsLinkCopied": "ICS link copied to clipboard.",
+      "icsLinkError": "Unable to copy the ICS link right now.",
+      "genericError": "The action could not be completed."
+    }
+  },
+  "statsCultes": {
+    "title": "Service Statistics",
+    "chartTitle": "Attendance per service (last 8 Sundays)",
+    "audience": "Audience - Service {number}",
+    "lineName": "Service {number}",
+    "selectChurch": "Please select a church to see the statistics",
+    "loadError": "An error occurred while loading the data"
+  },
+  "statsReseaux": {
+    "title": "Network Statistics",
+    "membersByNetwork": "Members by Network",
+    "monthlyEvolution": "Monthly member evolution per network",
+    "networkComparison": "Network growth comparison (last 3 months)",
+    "internalComposition": "Internal composition by member qualification",
+    "growthRate": "Growth rate (%) per network (current vs previous month)",
+    "new": "New",
+    "notSpecified": "Not specified",
+    "noDataForChurch": "No data available for this church",
+    "insufficientData": "Insufficient data to display statistics",
+    "noGrowthData": "No growth data available",
+    "inMonth": "In ",
+    "growth": "Growth (%)",
+    "labels": {
+      "pieItem": "{name}: {value} ({percent}%)",
+      "quotedName": "\"{name}\""
+    },
+    "interpretation": {
+      "datePrefix": "On ",
+      "totalMembers": " the total number of members across networks is ",
+      "persons": " people.",
+      "largestNetwork": " The largest network is ",
+      "with": " with ",
+      "members": " members",
+      "followedBy": ", followed by ",
+      "parenthesesOpen": " (",
+      "parenthesesClose": ")",
+      "period": ".",
+      "inMonth": " In ",
+      "singleNetworkPrefix": ", the network ",
+      "singleNetworkSuffix": " was created.",
+      "multipleNetworksPrefix": ", the networks ",
+      "multipleNetworksSuffix": " were created."
+    },
+    "growthInterpretation": {
+      "growing": "Growing networks: {networks}",
+      "declining": "Declining networks: {networks}",
+      "stagnant": "Stable networks: {networks}",
+      "new": "New networks: {networks}"
+    },
+    "departmentInvolvement": {
+      "title": "Department involvement rate",
+      "axisLabel": "Rate (%)",
+      "tooltipLabel": "Involvement rate",
+      "tooltipNetwork": "Network: {label}",
+      "tooltipValue": "{value}% ({involved}/{total} people)",
+      "barName": "Involvement rate (%)",
+      "barLabel": "{value}% ({involved}/{total})",
+      "bestPrefix": "The network ",
+      "bestMiddle": " has the highest involvement rate with ",
+      "bestSuffix": " ({involved} people out of {total} serve in departments).",
+      "average": "Average involvement rate: {rate}%"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We'd love to hear from you. Feel free to reach out!",
+    "info": {
+      "title": "Our Contact Information",
+      "email": {
+        "title": "Email",
+        "value": "contact@acer-rennes.fr"
+      },
+      "phone": {
+        "title": "Phone",
+        "value": "+33 X XX XX XX XX"
+      },
+      "location": {
+        "title": "Address",
+        "value": "Rennes, France"
+      }
+    },
+    "form": {
+      "title": "Send us a message",
+      "name": "Full Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send",
+      "sending": "Sending...",
+      "success": "Message sent successfully!",
+      "successMessage": "Your message has been sent successfully. We will get back to you as soon as possible.",
+      "error": "An error occurred while sending the message",
+      "validation": {
+        "nameRequired": "Name is required",
+        "nameMin": "Name must be at least 2 characters",
+        "emailRequired": "Email is required",
+        "emailInvalid": "Email is not valid",
+        "subjectRequired": "Subject is required",
+        "messageRequired": "Message is required",
+        "messageMin": "Message must be at least 10 characters"
+      }
+    }
+  },
+  "labels": {
+    "manageObjectives": "Manage objectives",
+    "mainObjective": "Main Objective",
+    "objective": "Objective",
+    "endDate": "End date",
+    "description": "Description (optional)",
+    "addObjective": "Add objective",
+    "addObjectiveShortTerm": "Click on \"Add objective\" to create one",
+    "editObjective": "Edit objective",
+    "newObjective": "New objective",
+    "editShortTermObjective": "Edit short-term objective",
+    "newShortTermObjective": "New short-term objective",
+    "shortTermDescription": "Short-term objective to reach the main objective",
+    "mainObjectiveDescription": "This objective will be used as the main reference to track network progress",
+    "confirmDeleteObjective": "Are you sure you want to delete this objective?",
+    "confirmDeleteShortTermObjective": "Are you sure you want to delete this short-term objective?",
+    "main": "Main",
+    "shortTerm": "Short-term",
+    "loading": "Loading...",
+    "noObjectiveDefined": "No objective defined",
+    "mainObjectiveOfNetwork": "Main objective of the network",
+    "networkObjective": "Network Objective",
+    "networkObjectives": "Network Objectives",
+    "modify": "Modify",
+    "create": "Create",
+    "active": "Active",
+    "completed": "Completed",
+    "progress": "Progress",
+    "clickToAdd": "Click on \"Add\" to create one",
+    "personalInformation": "Personal Information",
+    "contactInformation": "Contact Information",
+    "loginInformation": "Login Information",
+    "affiliation": "Affiliation",
+    "currentMembers": "Current Members",
+    "remaining": "Remaining",
+    "daysRemaining": "{days} day remaining",
+    "daysRemainingPlural": "{days} days remaining",
+    "shortTermObjectives": "Short-term Objectives",
+    "noShortTermObjective": "No short-term objective defined",
+    "add": "Add",
+    "type": "Type",
+    "status": "Status",
+    "actions": "Actions",
+    "audienceWithoutServants": "Audience, excluding servants",
+    "audienceWithServants": "Audience, with servants",
+    "notDefined": "Not defined",
+    "notDefinedMale": "Not defined",
+    "totalMembers": "Total members",
+    "newMembers": "New members",
+    "chainImpactLoadError": "Error loading impact chain",
+    "chainImpactUpdateError": "Error updating impact chain",
+    "unknownDate": "Unknown date",
+    "invalidDate": "Invalid date",
+    "networkMembers": "Network members",
+    "allNetworks": "All Networks",
+    "wishToIdentify": "I wish to identify myself",
+    "anonymousTestimony": "If you do not wish to identify yourself, your testimony will be published anonymously",
+    "nameWillBeDisplayed": "Your first and last name will be displayed with your testimony",
+    "testimony": "Testimony",
+    "networksSeparator": "--- Networks ---",
+    "sectionsSeparator": "--- Sections ---",
+    "wishToTestify": "I wish to testify during a service",
+    "mustIdentify": "You will need to identify yourself and provide a means of contact. The team will contact you to confirm your participation.",
+    "onlyOnline": "If you do not wish to testify during a service, your testimony will only be published online.",
+    "testimonyDuringService": "Testimony during a service",
+    "selectChurchForTestimonies": "Please select a church to see service testimonies",
+    "selectChurchForChainImpact": "Please select a church to see its impact chain",
+    "selectChurchForStats": "Please select a church to see statistics",
+    "chainImpact": "Impact Chain",
+    "noTestimoniesFound": "No testimonies found for this church.",
+    "noTestimoniesFoundForService": "No testimonies found for the service.",
+    "effectif": "Effectif",
+    "dateFormatWeekMonthYear": "Format: Week/Month/Year",
+    "testimoniesForService": "Service testimonies",
+    "testimonySubmitted": "Testimony submitted successfully!",
+    "thankYouForSharing": "Thank you for sharing what God has done. Your testimony matters!",
+    "godBlessYou": "God bless you! 🙏",
+    "shareYourTestimony": "Share your testimony",
+    "submitTestimony": "Submit your testimony",
+    "welcomeHome": "WELCOME HOME",
+    "welcomeMessage": "We are happy to welcome you to the testimony platform of ACER churches in the North-West zone. Whether you are a member of one of our assemblies or a visitor, know that your testimony will be a blessing to us. Indeed, we serve a God who does wonderful works in our lives. That is why we want to make known His greatness and faithfulness from generation to generation.",
+    "revelation": "Revelation 12:11",
+    "revelationText": "\"They overcame him by the blood of the Lamb and by the word of their testimony, and they did not love their lives so much as to shrink from death\"",
+    "revelationVerse": "They overcame him by the blood of the Lamb and by the word of their testimony, and they did not love their lives so much as to shrink from death",
+    "additionalPerson": "additional person",
+    "additionalPeople": "additional people",
+    "currentEffectif": "Current workforce:",
+    "member": "member",
+    "members": "members",
+    "networkResponsibleShort": "network resp.",
+    "companionsShort": "companions",
+    "guests": "guests",
+    "network": "Network",
+    "section": "Section",
+    "attachedFiles": "Attached files",
+    "defaultEncouragement": "🎯 Continue your efforts!",
+    "encouragement": {
+      "success": {
+        "progress100": [
+          "🎉 Congratulations! Goal: {target} members. Currently: {current} members. The goal is reached! You have done remarkable work!",
+          "🏆 Well done! Goal: {target} members. Currently: {current} members. You have exceeded all expectations! Keep up the momentum!",
+          "✨ Excellent work! Goal: {target} members. Currently: {current} members. The goal is not only reached but exceeded!"
+        ],
+        "progress90": [
+          "🔥 Goal: {target} members. Currently: {current} members. {remaining} members remaining. You're almost there! Don't give up!",
+          "💪 Goal: {target} members. Currently: {current} members. {remaining} members and {days} days remaining. Almost at the finish line! Don't relax your efforts now!",
+          "⭐ Goal: {target} members. Currently: {current} members. {days} days remaining. Just a few steps from victory! Keep it up!"
+        ],
+        "progress75": [
+          "🚀 Goal: {target} members. Currently: {current} members. {remaining} members and {days} days remaining. Excellent progress! You're on the right track!",
+          "📈 Goal: {target} members. Currently: {current} members ({progress}%). {days} days remaining. You're moving very well! Keep this pace!",
+          "💎 Goal: {target} members. Currently: {current} members. {remaining} members remaining. Remarkable progress! The goal is within reach!"
+        ],
+        "progress50": [
+          "👍 Goal: {target} members. Currently: {current} members ({progress}%). {remaining} members and {days} days remaining. Good progress! You're halfway there, keep going!",
+          "💼 Goal: {target} members. Currently: {current} members. {remaining} members and {days} days remaining. You're progressing well! Half the journey is already covered!",
+          "📊 Goal: {target} members. Currently: {current} members ({progress}%). {days} days remaining. Halfway there! Maintain your efforts to reach the goal!"
+        ],
+        "progress25": [
+          "🌱 Goal: {target} members. Currently: {current} members ({progress}%). {remaining} members and {days} days remaining. You've made a good start! Continue on this path!",
+          "🎯 Goal: {target} members. Currently: {current} members. {remaining} members and {days} days remaining. Good start! Every member counts, don't give up!",
+          "💫 Goal: {target} members. Currently: {current} members ({progress}%). {days} days remaining. You're on the right track! Persevere and you'll get there!"
+        ],
+        "progressDefault": [
+          "🌟 Goal: {target} members. Currently: {current} members. {remaining} members and {days} days remaining. Every step counts! Don't give up, you'll make it!",
+          "💪 Goal: {target} members. Currently: {current} members ({progress}%). {days} days remaining. The beginning is always the hardest, keep going!",
+          "🌿 Goal: {target} members. Currently: {current} members. {remaining} members and {days} days remaining. Growth takes time, be patient and persevering!"
+        ]
+      },
+      "warning": {
+        "urgent": [
+          "⚠️ Goal: {target} members. Currently: {current} members ({progress}%). Only {days} days left and you're less than halfway. Speed up!",
+          "⏰ Goal: {target} members. Currently: {current} members. {remaining} members and only {days} days remaining. Urgency! Mobilize all your forces!",
+          "🚨 Goal: {target} members. Currently: {current} members ({progress}%). {days} days remaining. Final stretch! You need to redouble your efforts to reach the goal!"
+        ],
+        "critical": [
+          "⏳ Goal: {target} members. Currently: {current} members ({progress}%). {remaining} members and {days} days remaining. It's time to accelerate!",
+          "📅 Goal: {target} members. Currently: {current} members. {remaining} members and {days} days remaining. It's still possible, act now!",
+          "🎯 Goal: {target} members. Currently: {current} members ({progress}%). {days} days remaining. You need to intensify your efforts to get there!"
+        ],
+        "alert": [
+          "📊 Goal: {target} members. Currently: {current} members ({progress}%). {remaining} members and {days} days remaining. You need to redouble your efforts!",
+          "⏰ Goal: {target} members. Currently: {current} members. {remaining} members and {days} days remaining. Speed up!",
+          "💼 Goal: {target} members. Currently: {current} members ({progress}%). {days} days remaining. You can make it, but you need to intensify your actions!"
+        ],
+        "default": [
+          "📉 Goal: {target} members. Currently: {current} members ({progress}%). {remaining} members and {days} days remaining. Progress is below expectations. It's time to react!",
+          "⚠️ Goal: {target} members. Currently: {current} members. {remaining} members and {days} days remaining. Watch the progress! Don't let the delay accumulate!",
+          "🔔 Goal: {target} members. Currently: {current} members ({progress}%). {days} days remaining. You need to accelerate to reach the goal on time!"
+        ]
+      },
+      "info": {
+        "excellent": [
+          "✅ Goal: {target} members. Currently: {current} members ({progress}%). {remaining} members and {days} days remaining. Excellent progress! You still have time, keep it up!",
+          "🎯 Goal: {target} members. Currently: {current} members. {remaining} members and {days} days remaining. On the right track! With the time remaining, the goal is within your reach!",
+          "💎 Goal: {target} members. Currently: {current} members ({progress}%). {days} days remaining. Solid progress! You're well positioned to reach the goal!"
+        ],
+        "good": [
+          "📈 Goal: {target} members. Currently: {current} members ({progress}%). {remaining} members and {days} days remaining. Good progress! You still have time to reach the goal!",
+          "👍 Goal: {target} members. Currently: {current} members. {remaining} members and {days} days remaining. You're progressing well! Keep up the momentum!",
+          "💪 Goal: {target} members. Currently: {current} members ({progress}%). {days} days remaining. Good pace! Maintain your efforts and you'll get there!"
+        ],
+        "default": [
+          "🎯 Goal: {target} members. Currently: {current} members. {remaining} members and {days} days remaining. Every member counts, continue your efforts!",
+          "📊 Goal: {target} members. Currently: {current} members ({progress}%). {days} days remaining. Track your progress! You're on the right path!",
+          "💫 Goal: {target} members. Currently: {current} members. {remaining} members and {days} days remaining. Every day counts! Persevere and you'll reach your goal!"
+        ]
+      }
+    },
+    "confirmCancelTestimony": "Êtes-vous sûr de vouloir annuler la confirmation de ce témoignage pour le culte ?",
+    "confirmTestimonyForService": "Êtes-vous sûr de vouloir confirmer ce témoignage pour le culte ?",
+    "deleteTestimonyConfirm": "Êtes-vous sûr de vouloir supprimer le témoignage \"{title}\" ?",
+    "deleteTestimonyConfirmGeneric": "Êtes-vous sûr de vouloir supprimer ce témoignage ?"
+  },
+  "contactInfo": {
+    "title": "Contact Information",
+    "emailLabel": "Contact email",
+    "emailHelper": "This email will be displayed on the contact page",
+    "phoneLabel": "Contact phone",
+    "phoneHelper": "This phone number will be displayed on the contact page",
+    "locationLabel": "Address / Location",
+    "locationHelper": "This address will be displayed on the contact page",
+    "saveButton": "Save changes",
+    "saving": "Saving...",
+    "allCategories": "All categories",
+    "anonymous": "Anonymous",
+    "noTitle": "Testimony without title",
+    "deleteTitle": "Delete testimony",
+    "note": "Note",
+    "addNote": "Add a note",
+    "editNote": "Edit note",
+    "deleteNote": "Delete note",
+    "notePlaceholder": "Add your note on this testimony...",
+    "testimonyOf": "Testimony of",
+    "confirmedCount": "{count} confirmed testimony(ies)",
+    "noTestimonyForCulte": "No testimony found for the service.",
+    "notYetTestified": "Not yet testified",
+    "confirmForService": "Confirm for service",
+    "cancelConfirmation": "Cancel confirmation",
+    "confirm": "Confirm",
+    "wantsToTestify": "Wants to testify at service",
+    "confirmedForService": "Confirmed for service",
+    "hasTestified": "Has testified",
+    "viewTestimony": "View testimony",
+    "markAsTestified": "Mark as testified",
+    "stopPlayback": "Stop playback",
+    "listenRecording": "Listen to recording",
+    "deleteRecording": "Delete recording",
+    "zoomOut": "Zoom out",
+    "zoomIn": "Zoom in",
+    "overview": "Overview",
+    "allChurches": "All churches",
+    "filterByChurch": "Filter by church",
+    "testimonyCategory": "Testimony category *",
+    "testimonyContent": "Your testimony *",
+    "testimonyPlaceholder": "Share your detailed testimony here...",
+    "illustrations": "Illustrations (Optional)",
+    "illustrationsHelper": "Images, videos, documents (2 max, 5 MB each)",
+    "selectedFiles": "Selected files:",
+    "inputMode": "input mode",
+    "text": "text",
+    "audio": "audio",
+    "textLabel": "Text",
+    "vocalRecording": "Voice recording",
+    "vocalRecordingMobile": "Voice",
+    "church": "Church *",
+    "networkOrSection": "Network or section",
+    "personType": "Person type *",
+    "firstName": "First name *",
+    "lastName": "Last name *",
+    "phoneNumber": "Phone number",
+    "emailAddress": "Email address",
+    "searchTestimonies": "Search in testimonies...",
+    "category": "Category",
+    "unreadOnly": "Unread only",
+    "localChurch": "Local church *",
+    "network": "Network *",
+    "revivalGroup": "Revival group (GR) *",
+    "ageRange": "Age range *",
+    "originCountry": "Country of origin *",
+    "educationLevel": "Education level *",
+    "username": "Username *",
+    "phonePlaceholder": "06 XX XX XX XX",
+    "addressPlaceholder": "123 Street Name, 35000 City",
+    "selectRoles": "Select roles",
+    "zoneEvent": "Zone event (visible by all churches)",
+    "eventsView": "events view",
+    "monthView": "month-view",
+    "yearView": "year-view",
+    "objective": "objective",
+    "confirmCancelTestimony": "Are you sure you want to cancel the confirmation of this testimony for the service?",
+    "confirmTestimonyForService": "Are you sure you want to confirm this testimony for the service?",
+    "deleteTestimonyConfirm": "Are you sure you want to delete the testimony \"{title}\"?",
+    "deleteTestimonyConfirmGeneric": "Are you sure you want to delete this testimony?"
+  },
+  "relations": {
+    "groupMember": "Group Member",
+    "groupResponsible": "Group Responsible",
+    "networkResponsible": "Network Responsible",
+    "companion": "Companion of Works",
+    "sessionResponsible": "Session Responsible",
+    "unitMember": "Unit Member",
+    "unitResponsible": "Unit Responsible",
+    "services": "Services",
+    "messages": "Messages",
+    "userRelations": "User Relations",
+    "loading": "Loading relations...",
+    "noRelationsFound": "No relations found",
+    "noRelationsMessage": "This user currently has no relations recorded in the system.",
+    "item": "item",
+    "items": "items",
+    "service": "service",
+    "message": "message",
+    "serviceCollector": "Service Collector",
+    "supervisor": "Supervisor",
+    "messagesSent": "Messages sent",
+    "messagesReceived": "Messages received"
+  },
+  "statsLabels": {
+    "groupResponsibles": "Group Responsibles",
+    "companions": "Companions of Works",
+    "allLeaders": "Leader (All)",
+    "simpleMember": "Simple Member",
+    "networkWithoutName": "Network without name"
+  },
+  "Network": {
+    "details": {
+      "loading": "Chargement des détails du réseau..."
+    }
+  },
+  "testimonies": {
+    "confirmedCount": "{count} confirmed testimony(ies)",
+    "noteAdded": "Note added to testimony: {title}",
+    "testimony": "testimony(ies)"
+  },
+  "activity": {
+    "userDeleted": "User deleted: {name}",
+    "userUpdated": "User updated: {name}",
+    "userCreated": "User created: {name}"
+  }
+}
